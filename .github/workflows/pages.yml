@@ -31,8 +31,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          name: wshelley/washing-days
-          ref: main
+          repository: wshelley/washing-days
       - name: Set up Python 3.10
         uses: actions/setup-python@v3
         with:
